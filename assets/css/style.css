@@ -116,6 +116,9 @@ h3, h2 {
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
 }
+ul {
+  list-style-type: none; 
+}
 
 /* main */
 
@@ -226,17 +229,37 @@ input[type=submit] {
 
 @media screen and (max-width: 640px){
   
-  #masthead {
-    position: fixed; 
-  }
-  
-  }
+#masthead {
+position: static;
+
+
+}
+
+#main-container {
+padding-top: 25px; 
+padding-right: 25px; 
+padding-left: 25px; 
+}
+
   #logo {
     display: inline; 
     width: 100%; 
   }
   
   #below {
-    
+    width: 100%; 
+    text-align: center; 
   }
+
+.auth-image{
+  width: 100%; 
+}
+p {
+  width: 100%; 
+}
+
+#plswork {
+  text-align: center; 
+}
+
 }
