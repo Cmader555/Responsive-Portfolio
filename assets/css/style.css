@@ -219,11 +219,69 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) and (min-width:768px) {
+
+  
 
 }
 
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) and (min-width:640px) {
+
+#masthead {
+  position: static; 
+}
+
+.navcontain {
+  display: flex; 
+}
+#logo {
+  margin: auto; 
+  font-size: 25px; 
+}
+#below
+{
+  margin: auto; 
+
+}
+
+#main-container {
+  padding-top: 25px; 
+  padding-right: 25px; 
+  padding-left: 25px; 
+   
+
+  }
+  
+.main-section
+{
+  margin-bottom: 300px; 
+  padding-top: 20px; 
+  
+}
+
+body {
+  font-size: 14px; 
+  line-height: 25px; 
+}
+h1 {
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+}
+
+#imgsec {
+padding: 10px; 
+margin-right: auto; 
+margin-left: auto; 
+  
+}
+
+.work {
+  width: 220px; 
+  
+}
+
+
 
 }
 
@@ -258,8 +316,12 @@ p {
   width: 100%; 
 }
 
-#plswork {
-  text-align: center; 
+.work {
+  width: 100%; 
+  margin-right: auto; 
+  margin-left: auto; 
+  margin-bottom: 20px; 
+
 }
 
 }
